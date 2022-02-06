@@ -25,6 +25,19 @@ const frogpack = new backpack(
   2
 );
 
-const both_pack = [back_pack, frogpack];
+const anotherFrog = new backpack(
+  "pack03",
+  "../asset/images/backpack_img.png",
+  "frogpack2",
+  24,
+  "gray",
+  false,
+  "Febuary 03, 12:36:00 PST",
+  6,
+  3,
+  3
+);
+
+const both_pack = [back_pack, frogpack, anotherFrog];
 
 export default both_pack;
